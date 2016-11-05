@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body{
+      font-family: 'Helvetica Neue','Hiragino Sans GB','WenQuanYi Micro Hei','Microsoft Yahei',sans-serif;
+    }
+    li{
+      list-style: none;
+    }
+    a{
+      text-decoration: none;
+    }
+    footer{
+      width:100%;
+      height: 100%;
+      background-color: #333;
+    }
+    .footer-container{
+      width: 75%;
+      height: 78%;
+      margin: 0 auto;
+      overflow: hidden;
+      padding-top: 30px;
+    }
+
+    @media screen and (max-width:640px) {
+      .footer-container{
+        width: 100%;
+        height: 78%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-top: 30px;
+      }
+    }
+    .footer-container ul{
+      float: left;
+      width: 20%;
+    }
+    @media screen and (max-width:640px) {
+      .footer-container ul{
+        float: left;
+        width: 50%;
+        height:100%;
+        text-align: center;
+        border-bottom: 1px dashed #777;
+      }
+      .footer-container ul:nth-child(3){
+        width: 50%;
+        height: 244px;
+      }
+      .footer-container ul:last-child{
+        width: 100%;
+        height: 100%;
+        border-bottom: none;
+      }
+    }
+    .footer-container ul h4{
+      color: #fff;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      font-size: 18px;
+      font-family: inherit;
+      font-weight: 500;
+      line-height: 1.1;
+      cursor: pointer;
+    }
+    .footer-container ul li{
+      display: list-item;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .footer-container ul li a{
+      color: #777;
+      transition: all .35s ease-in-out;
+    }
+    .footer-container ul li a:hover{
+      color: #fff;
+    }
+    span{
+      color: #777;
+      font-size: 14px;
+    }
+    .foot{
+      width: 100%;
+      height: 22%;
+      margin: 0 auto;
+      overflow: hidden;
+      background-color: #000;
+    }
+    .foot-bottom{
+      width: 75%;
+      height: 100%;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .foot-bottom span a{
+      color: #a6a6a6;
+    }
+    .copyright{
+      width:28%;
+      color: #a6a6a6;
+      height: 100%;
+      font-size: 16px;
+      line-height: 100%;
+      margin-top: 2%;
+      overflow: hidden;
+      display: inline-block;
+    }
+    .mixpanels{
+      float: right;
+      width: 114px;
+      height: 39px;
+      margin-top: 18px;
+      margin-left: 18px;
+    }
+    @media screen and (max-width:640px) {
+      .foot-bottom{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .foot-bottom span a{
+        color: #a6a6a6;
+      }
+      .copyright{
+        width:100%;
+        color: #a6a6a6;
+        height: 100%;
+        font-size: 16px;
+        line-height: 100%;
+        display: inline-block;
+      }
+      .mixpanels{
+        display: none;
+      }
+      }
+  </style>
+</head>
+<body>
+<footer>
+  <div class="footer-container">
+      <ul class="product">
+        <h4>产品</h4>
+        <li><a href="#">产品概览</a></li>
+        <li><a href="#">价格</a></li>
+        <li><a href="#">下载</a></li>
+        <li><a href="#">社区</a></li>
+        <li><a href="#">最近更新</a></li>
+        <li><a href="#">隐私条款</a></li>
+      </ul>
+      <ul class="company">
+        <h4>公司</h4>
+        <li><a href="#">新闻与活动</a></li>
+        <li><a href="#">团队成员</a></li>
+        <li><a href="#">加入我们</a></li>
+        <li><a href="#">媒体报道</a></li>
+        <li><a href="#">合作伙伴</a></li>
+        <li><a href="#">公益计划</a></li>
+      </ul>
+      <ul class="solution">
+        <h4>解决方案</h4>
+        <li><a href="#">一站式</a></li>
+        <li><a href="#">制造业</a></li>
+        <li><a href="#">教育科研业</a></li>
+        <li><a href="#">社区行业案例</a></li>
+      </ul>
+      <ul class="developer">
+        <h4>开发者</h4>
+        <li><a href="#">开源项目</a></li>
+        <li><a href="#">开放平台</a></li>
+        <li><a href="#">创作随笔</a></li>
+        <li><a href="#">自助检测</a></li>
+        <li><a href="#">系统状态</a></li>
+      </ul>
+      <ul class="contact">
+        <h4>联系方式</h4>
+        <li><a href="#">+86 400-060-5576</a>
+          <br>  <span>周一至周日 8:00 ~ 20:00</span>
+        </li>
+        <li><a href="#">support@teambition.com</a></li>
+        <li><a href="#">联系我们</a></li>
+      </ul>
+  </div>
+  <div class="foot">
+        <div class="foot-bottom">
+            <div class="copyright">Copyright © 2013-2016 Teambition</div>
+            <span><a href="#">沪ICP备11014111号-2</a></span>
+            <div class="mixpanels">
+              <a href="#"><img src="img/badge_blue.png" alt=""></a>
+            </div>
+            <div class="sns-info">
+              <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div>
+        </div>
+  </div>
+</footer>
+</body>
+</html>
